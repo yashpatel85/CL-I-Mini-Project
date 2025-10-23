@@ -8,7 +8,7 @@ import numpy as np
 import time  # To simulate model training time if needed
 
 # --- Configuration ---
-DATA_FILE = "wearable_tech_sleep_quality (1).csv"
+DATA_FILE = "wearable_tech_sleep_quality.csv"
 TARGET_COLUMN = 'Sleep Quality'
 FEATURES = ['Heart Rate', 'Body Temperature', 'Room Temperature', 'Humidity', 'Sleep Stage']
 CATEGORICAL_FEATURES = ['Sleep Stage'] # Although numeric after encoding, we treat it as categorical for input

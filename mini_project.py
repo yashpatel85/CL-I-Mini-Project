@@ -9,7 +9,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, accuracy_score
 
 # Step 2: Load Dataset
-file_path = "D:/CL - I Mini Project/wearable_tech_sleep_quality (1).csv"  # <-- change to your path
+file_path = "D:/CL - I Mini Project/wearable_tech_sleep_quality.csv"  # <-- change to your path
 data = pd.read_csv(file_path)
 print("✅ Dataset Loaded Successfully!")
 print("\nFirst 5 rows:\n", data.head())
